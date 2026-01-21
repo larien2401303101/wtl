@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Larien Britto">
+    <meta name="description" content="HTML elements define the structure of a webpage.">
+    <title>HTML Elements</title>
+</head>
+
+<body>
+    <header>
+        &lt;header&gt; contains introductory content, a logo, navigation aids, etc.
+        <nav>
+            &lt;nav&gt; contains navigation links, either to the current page or to other pages. e.g. table of contents,
+            indexes.
+        </nav>
+    </header>
+    The &lt;body&gt; element contains the content of a webpage.
+    <main>
+        The &lt;main&gt; element contains the dominant content or main content of a webpage.
+        <h1>&lt;h1&gt;</h1>
+        <h2>&lt;h2&gt;</h2>
+        <h3>&lt;h3&gt;</h3>
+        <h4>&lt;h4&gt;</h4>
+        <h5>&lt;h5&gt;</h5>
+        <h6>&lt;h6&gt;</h6>
+        <p>A &lt;p&gt; represents a paragraph, which is often a block of text, but may also be used to group related
+            content
+            such as images or form fields.</p>
+        <p>
+            <caption>
+                &lt;caption&gt; specifies the caption or title of a table.<br>
+                &lt;table&gt; denotes a table, &lt;thead&gt; its header, &lt;tbody&gt; its body, &lt;tr&gt; a row,
+                &lt;th&gt; a
+                header cell, and &lt;td&gt; a cell.
+            </caption>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td>Used to draw the reader's attention to an element, usually rendered in bold.</td>
+                    <td>
+                        Kaitai Struct is <b>15x faster</b> than Construct for parsing arbitrary binary formats.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td>Represents a range of text that is set off from normal text for some reason, usually rendered in
+                        italic.</td>
+                    <td><i>Hypertext Markup Language</i> is used to structure webpages.</td>
+                </tr>
+                <tr>
+                    <td>&lt;u&gt;</td>
+                    <td>
+                        Indicates that a span of inline text has a non-textual annotation, usually rendered as an
+                        underline.
+                    </td>
+                    <td>
+                        It may be used to highlight <u style="text-decoration: red wavy underline;">speling</u>
+                        mistakes.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;s&gt;</td>
+                    <td>
+                        Renders text with a strikethrough, used to represent things that are no longer relevant or
+                        accurate.
+                    </td>
+                    <td>
+                        Earth is <s>flat</s> round.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </p>
+        <hr>
+        <p>
+        <ul>
+            <li>&lt;ul&gt; creates an unordered list,</li>
+            <li>and &lt;li&gt; represents an element of a list.</li>
+        </ul>
+        <ol>
+            <li>&lt;ol&gt; creates an ordered list.</li>
+            <li>It may be numbered in latin numerals, roman numerals, or letters.</li>
+        </ol>
+        <dl>
+            <dt>&lt;dl&gt;</dt>
+            <dd>A definition list, which consists of pairs of terms and their definitions.</dd>
+            <dt>&lt;dt&gt;</dt>
+            <dd>Specifies the term being defined.</dd>
+            <dt>&lt;dd&gt;</dt>
+            <dd>Describes the corresponding term.</dd>
+        </dl>
+        </p>
+        <hr>
+        <pre>
+<code>
+# &lt;pre&gt; displays preformatted text exactly as written in the HTML document, and &lt;code&gt; marks text as computer code.
+meta:
+  id: tcp_segment
+  endian: be
+seq:
+  - id: src_port
+    type: u2
+  - id: dst_port
+    type: u2
+  - id: seq_num
+    type: u4
+  - id: ack_num
+    type: u4
+</code>
+        </pre>
+    </main>
+    <footer>
+        <hr>
+        <p>
+            &lt;footer&gt; contains the footer of a webpage, usually containing information about the author or related
+            links.<br>
+        </p>
+        <i>Made by Larien Britto</i>
+    </footer>
+</body>
+
+</html>
